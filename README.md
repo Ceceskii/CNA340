@@ -7,7 +7,6 @@ The function should also return -1 if the target is not reached after 100 months
 ## Getting Started
 
 These instructions will install Python on your local machine for demo.
-
 https://www.python.org/downloads/
 
 ### Prerequisites
@@ -19,8 +18,6 @@ Project requires Python to run.
 Once installed you can run the program.
 
 python cne330.py
-
-
 def howManyMonths(start, rate, spending, target):
     month = 0
     start_balance = start
@@ -36,7 +33,7 @@ def howManyMonths(start, rate, spending, target):
 
 Add any additional ways to run the program below:
 
-python cna_demo.py test.txt
+python cne330.py test.txt
 
 ##### Thanks
 
