@@ -20,24 +20,6 @@ Once installed you can run the program:
 ```
 python cne330.py
 ```
-```
-def howManyMonths(start, rate, spending, target):
-    month = 0
-    start_balance = start
-    next_month_balance = 0
-    
-    while(start_balance < target):                   
-        if start_balance < 0:                             
-            return -1
-        month += 1
-        next_month_balance = start_balance * (1 + rate) - spending
-        start_balance = next_month_balance  
-    return month
-```
-Add any additional ways to run the program below:
-```
-python cne330.py test.txt
-```
 ##### Thanks
 
-Provide thank yous and attributions here. If someone helped you, you looked at another repository, or another article, provide it here.
+Thank you Zak for having a demo on how to FORK and edit the README.md. It provides more understanding of the process.  
